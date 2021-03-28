@@ -68,7 +68,7 @@ while True:
                                 ctypes.c_uint(0),
                                 ctypes.c_uint(0)
                             )
-                            breaked = False
+                            breaked = True
                             break
                     if breaked:
                         break
